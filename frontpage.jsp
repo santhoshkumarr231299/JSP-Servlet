@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">																
-<title>ZOHO Login</title>
+<title>Login Page</title>
 <style>
 body{
 font-family: 'verdana';
@@ -35,7 +35,7 @@ else if(session.getAttribute("username") != null)
 %>
 <form action = "login" method = "post">
 <table bgcolor = "#EFC050" align = "center">
-<tr><td align = "center"><h2>ZOHO</h2></td></tr>
+<tr><td align = "center"><h2>LOGIN</h2></td></tr>
 <tr><td>Username : </td><td><input type = "text" name = "username" required></td></tr>
 <tr><td>Password : </td><td><input type = "password" name = "password" required> </td> </tr>
 <tr><td><a href = "newuser.jsp">New User</a></td><td align = "right"><a href = "forgotpass.jsp">Forgot Password</a></td></tr>
